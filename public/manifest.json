@@ -1,6 +1,6 @@
 {
-  "short_name": "Pharo GSoC",
-  "name": "Google Summer of Code with Pharo",
+  "short_name": "Cormas GSoC",
+  "name": "Google Summer of Code with Cormas",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "pharo-logo-small.png",
+      "src": "logo192.png",
       "type": "image/png",
-      "sizes": "100x34"
+      "sizes": "192x192"
     },
     {
-      "src": "pharo.png",
+      "src": "logo512.png",
       "type": "image/png",
-      "sizes": "471x155"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
