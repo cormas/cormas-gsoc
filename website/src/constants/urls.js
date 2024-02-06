@@ -1,6 +1,6 @@
-const REPO = 'https://raw.githubusercontent.com/pharo-project/pharo-gsoc/'
+const REPO = 'https://raw.githubusercontent.com/cormas/cormas-gsoc/'
 
-const BRANCH = 'master'
+const BRANCH = 'main'
 
 export const BASE = REPO + '/' + BRANCH + '/data'
 
