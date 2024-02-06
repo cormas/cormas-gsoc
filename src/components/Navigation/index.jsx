@@ -14,6 +14,9 @@ const Navigation = () => (
           <Link to={ROUTES.LANDING}><img src={logo} alt='' /></Link>
         </li>
         <li>
+          <Link to={ROUTES.LANDING}>CORMAS</Link>
+        </li>
+        <li>
           <Link className="navbar-button" to={ROUTES.LANDING}>Home</Link>
         </li>
         <li>

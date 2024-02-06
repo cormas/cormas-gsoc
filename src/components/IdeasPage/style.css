@@ -75,7 +75,7 @@ article {
   flex-direction: column;
 }
 .projectName {
-  color: var(--color-pharo-blue);
+  color: var(--color-primary);
   font-size: 1.5rem;
   font-weight: 600;
 }

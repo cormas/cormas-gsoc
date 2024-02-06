@@ -7,7 +7,7 @@
 
 #navbar img {
   display: inline;
-  height: 33px;
+  height: 40px;
   vertical-align: middle;
   padding-right: 17px;
 }
@@ -33,15 +33,15 @@
 a.navbar-button {
   display: inline-block;
   padding: 15px 14px;
-  color: var(--color-pharo-blue);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 a:hover.navbar-button {
-  background-color: var(--color-pharo-light-blue);
+  background-color: var(--color-light-gray);
 }
 
 a:active.navbar-button {
-  background-color: var(--color-pharo-blue);
+  background-color: var(--color-primary);
   color: white;
 }

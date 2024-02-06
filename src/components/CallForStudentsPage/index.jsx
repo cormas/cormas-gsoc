@@ -8,11 +8,11 @@ export default function CallForStudentsPage() {
 
   return(
     <div className="container">
-      <h1>Google Summer of Code 2023: Call for Students</h1>
+      <h1>Google Summer of Code 2024: Call for Students</h1>
 
       <p>Dear students,</p>
 
-      <p>We are happy to announce that once again, Pharo Consortium is looking for smart and enthusiastic students to work with us during Google Summer of Code 2023. In the following sections, we explain the program requirements and provide a detailed description of the application process. This text is based on the <a href="https://summerofcode.withgoogle.com/rules/">Google Summer of Code 2023 Program Rules</a>. We strongly suggest that you read the original rules. In case of any disagreement between this document and the Rules, the Rules should prevail.</p>
+      <p>We are happy to announce that Cormas community is looking for smart and enthusiastic students to work with us during Google Summer of Code 2024. In the following sections, we explain the program requirements and provide a detailed description of the application process. This text is based on the <a href="https://summerofcode.withgoogle.com/rules/">Google Summer of Code 2024 Program Rules</a>. We strongly suggest that you read the original rules. In case of any disagreement between this document and the Rules, the Rules should prevail.</p>
 
       <p>If you have any additional questions, feel free to send an email to any of the organizers listed at the bottom of this page.</p>
 
@@ -35,18 +35,14 @@ export default function CallForStudentsPage() {
         <li>GSoC participants are considered independent developers paid by a stipend and are not employed by Google or GSoC Organization.</li>
       </ul>
 
-      <h2>2. What is Pharo?</h2>
+      <h2>2. What is Cormas?</h2>
 
-      <p>Pharo is a dynamic, purely object-oriented programming language (everything is an object) in the tradition of Smalltalk. But it is also a robust development environment, focused on simplicity and immediate feedback. Its full syntax fits on a postcard, and coding can be done directly in the debugger. Pharo has super cool tools that empower you and make you highly efficient.</p>
-
-      <p>Pharo's goal is to deliver a clean, innovative, free and open-source immersive environment. By providing a stable and small core system, excellent development tools, and maintained releases, Pharo is an attractive platform to build and deploy mission-critical applications.</p>
-
-      <p>Pharo fosters a healthy ecosystem developed from private and commercial contributors who advance and maintain its core system and external packages.
-        More information about Pharo is available at <a href="http://www.pharo.org/">http://www.pharo.org/</a>.</p>
+      <p>CORMAS is an Agent-Based Modelling (ABM) platform tailored preferentially to renewable resource management. Cormas is intended to facilitate the design of ABM, as well as monitor and analyse simulations. It is based on the <a href="https://pharo.org">Pharo</a> - a pure object-oriented programming language and an interactive environment based on immediate feedback. Cormas is a framework from which, by specialization and refining, users can create specific entities for their own model. 
+      More information about Cormas is available at <a href="http://cormas.cirad.fr/">http://cormas.cirad.fr/</a>.</p>
 
       <h2>3. Eligibility criteria</h2>
 
-      <p>To apply for Google Summer of Code with Pharo Consortium, you must satisfy the Eligibility Criteria for students found in the corresponding section of the <a href="https://summerofcode.withgoogle.com/rules/">Program Rules</a>.</p>
+      <p>To apply for Google Summer of Code with Cormas, you must satisfy the Eligibility Criteria for students found in the corresponding section of the <a href="https://summerofcode.withgoogle.com/rules/">Program Rules</a>.</p>
 
       <p>We want to emphasize that every applicant must be:</p>
 
@@ -67,7 +63,7 @@ export default function CallForStudentsPage() {
       </ul>
 
 
-      <h3>3.1. Strongly preferred by Pharo Consortium</h3>
+      <h3>3.1. Strongly preferred by Cormas community</h3>
 
       <ul>
         <li>Good knowledge of OOP.</li>
@@ -155,14 +151,13 @@ export default function CallForStudentsPage() {
 
       <p>We are looking forward to great talent joining our organisation this summer.</p>
 
-      <p>Warm Regards, Pharo Organisation Admins:</p>
+      <p>Warm Regards, Cormas Organisation Admins:</p>
 
       <ul>
-        <li>Sebastian Jordan &#60;<a href="mailto:sebastian.jordan@inria.fr">sebastian.jordan@inria.fr</a>&#62;</li>
-        <li>Oleksandr Zaytsev &#60;<a href="mailto:olk.zaytsev@gmail.com">olk.zaytsev@gmail.com</a>&#62;</li>
-        <li>Serge Stinckwich &#60;<a href="mailto:serge.stinckwich@gmail.com">serge.stinckwich@gmail.com</a>&#62;</li>
-        <li>Juan Pablo Sandoval Alcocer &#60;<a href="mailto:juampiboy@gmail.com">juampiboy@gmail.com</a>&#62;</li>
-        <li>Gordana Rakić &#60;<a href="mailto:goca.rakic@gmail.com">goca.rakic@gmail.com</a>&#62;</li>
+        <li>Oleksandr ZAITSEV &#60;<a href="mailto:olk.zaytsev@gmail.com">oleksandr.zaitsev@cirad.fr</a>&#62;</li>
+        <li>Pierre BOMMEL &#60;<a href="mailto:bommel@cirad.fr">bommel@cirad.fr</a>&#62;</li>
+        <li>Etienne DELAY &#60;<a href="mailto:etienne.delay@cirad.fr">etienne.delay@cirad.fr</a>&#62;</li>
+        <li>Serge STINCKWICH &#60;<a href="mailto:serge.stinckwich@gmail.com">serge.stinckwich@gmail.com</a>&#62;</li>
       </ul>
 
     </div>

@@ -17,7 +17,7 @@ import * as URLS from '../../constants/urls'
 // import { Dialog } from "@mui/material"
 // import * as URLS from '../../constants/urls'
 import logo from '../../img/logo-big.png'
-import SupervisorMarker from '../IdeasPage/SupervisorMarker';
+import SupervisorMarker from './SupervisorMarker';
 
 const getContentsOfFileFromURL = url => {
   var result = null

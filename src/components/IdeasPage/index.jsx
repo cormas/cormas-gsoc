@@ -97,14 +97,14 @@ class IdeasPage extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Pharo GSoC: Project Ideas";
+    document.title = "Cormas GSoC: Project Ideas";
   }
 
   render() {
     return (
       <div className="container">
-        <h1>Pharo GSoC Project Ideas</h1>
-        <p>Below is the list of project ideas that were proposed by the Pharo community. You can apply to any of those projects by sending an email to one of its mentors. Do not hesitate to propose your own idea but make sure that there is at least one mentor in the community who would agree to supervise you.</p>
+        <h1>Cormas GSoC Project Ideas</h1>
+        <p>Below is the list of project ideas that were proposed by the Cormas community. You can apply to any of those projects by sending an email to one of its mentors. Do not hesitate to propose your own idea but make sure that there is at least one mentor in the community who would agree to supervise you.</p>
         <aside>
           <FilterIdeasForm
             ideas={this.ideas}
