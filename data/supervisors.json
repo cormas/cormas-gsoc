@@ -1,20 +1,8 @@
 [
   {
-    "name": "Nour Jihene Agouf",
-    "email": "a.n.djihan@gmail.com",
-    "github": "NourJihene",
-    "img": ""
-  },
-  {
     "name": "Milton Mamani Torres",
     "email": "akevalion@gmail.com",
     "github": "akevalion",
-    "img": ""
-  },
-  {
-    "name": "Hernan Morales",
-    "email": "hernanmd@protonmail.com",
-    "github": "hernanmd",
     "img": ""
   },
   {
@@ -36,57 +24,15 @@
     "img": ""
   },
   {
-    "name": "Sebastian Jordan",
-    "email": "sebastian.jordan@inria.fr",
-    "github": "jordanmontt",
-    "img": ""
-  },
-  {
-    "name": "Santiago Bragagnolo",
-    "email": "santiago.bragagnolo@inria.fr",
-    "github": "sbragagnolo",
-    "img": ""
-  },
-  {
-    "name": "Juan Pablo Sandoval",
-    "email": "juampiboy@gmail.com",
-    "github": "jpsandoval",
-    "img": ""
-  },
-  {
-    "name": "Alison Fernandez",
-    "email": "fernablanco.alison@gmail.com",
-    "github": "Balison",
-    "img": ""
-  },
-  {
-    "name": "Geraldine Galindo",
-    "email": "g3.wth17@gmail.com",
-    "github": "GeraldineGalindo",
-    "img": ""
-  },
-  {
     "name": "Nicolas Anquetil",
     "email": "nicolas.anquetil@inria.fr",
     "github": "NicolasAnquetil",
     "img": ""
   },
   {
-    "name": "Benoit Verhaeghe",
-    "email": "benoit.verhaeghe@berger-levrault.com",
-    "github": "badetitou",
-    "img": ""
-  },
-  {
     "name": "Pablo Tesone",
     "email": "tesonep@gmail.com",
     "github": "tesonep",
-    "img": ""
-  },
-  {
-    "name": "Gordana Rakic",
-    "email": "goca@dmi.uns.ac.rs",
-    "github": "gocko",
     "img": ""
   },
   {
@@ -102,9 +48,9 @@
     "img": ""
   },
   {
-    "name": "Steven Costiou",
-    "email": "steven.costiou@inria.fr",
-    "github": "StevenCostiou",
+    "name": "Tomohiro Oda",
+    "email": "tomohiro.tomo.oda@gmail.com",
+    "github": "tomooda",
     "img": ""
   },
   {
@@ -114,15 +60,15 @@
     "img": ""
   },
   {
-    "name": "Larisa Safina",
-    "email": "larisa.safina@inria.fr",
-    "github": "lsafina",
+    "name": "Christophe Le Page",
+    "email": "christophe.le_page@cirad.fr",
+    "github": "ChLePage",
     "img": ""
   },
   {
-    "name": "Cyril Ferlicot-Delbecque",
-    "email": "cyril@ferlicot.me",
-    "github": "jecisc",
+    "name": "Cedrick Beler",
+    "email": "cedrick.beler@enit.fr",
+    "github": "cdrick65",
     "img": ""
   },
   {
@@ -132,27 +78,9 @@
     "img": ""
   },
   {
-    "name": "Sebastian Sastre",
-    "email": "sebastianconcept@gmail.com",
-    "github": "sebastianconcept",
-    "img": ""
-  },
-  {
-    "name": "Iona Thomas",
-    "email": "iona.thomas@inria.fr",
-    "github": "Inao0",
-    "img": ""
-  },
-  {
     "name": "Nahuel Palumbo",
     "email": "nahuel.palumbo@inria.fr",
     "github": "PalumboN",
-    "img": ""
-  },
-  {
-    "name": "Domenico Cipriani",
-    "email": "mspgate@googlemail.com",
-    "github": "lucretiomsp",
     "img": ""
   }
 ]
