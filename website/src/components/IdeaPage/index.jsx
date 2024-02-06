@@ -93,7 +93,7 @@ export default function IdeaPage() {
 
   useEffect(() => {
     document.title = title;  
-  }, []);
+  }, [title]);
 
   const renderers = {
     inlineMath: ({value}) => <Tex math={value} />,

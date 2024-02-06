@@ -10,22 +10,19 @@ const shorten = (text, maxlength) => {
 
 export default function IdeaCard({idea}) {
 
-  const { id, title, description, img, goal, url, supervisors, skills, size, difficulty } = idea;
-  const link = id;
-
   return (
-    <a href={link} id={title.replace(/\W/g, '_')} className="ideaCard">
+    <a href={idea['id']} id={idea['title'].replace(/\W/g, '_')} className="ideaCard">
       <div className="header">
         <div className="projectLogo">
           <img
-            src={img ? URLS.IMAGE_FOLDER + '/' + img : logo}
-            alt={title}
+            src={idea['img'] ? URLS.IMAGE_FOLDER + '/' + idea['img'] : logo}
+            alt={idea['title']}
             className="projectLogo"
           />
         </div>
-        <div className="projectName">{title}</div>
+        <div className="projectName">{idea['title']}</div>
       </div>
-      <p className="projectDescription">{shorten(description, 100)}</p>
+      <p className="projectDescription">{shorten(idea['description'], 100)}</p>
     </a>
   )
 }

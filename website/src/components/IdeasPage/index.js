@@ -140,20 +140,4 @@ export function chunk(list, n) {
   return result
 }
 
-const translationsEN = {
-  'context': 'Context',
-  'goal': 'Goal',
-  'mentors': 'Mentors',
-  'look': 'Look this project in',
-  'skills': 'Skills',
-  'required': 'Required',
-  'preferred': 'Preferred',
-  'timeSize': 'Size',
-  'expectedTime': '175 ~ 350 hour.',
-  'difficulty': 'Difficulty',
-  'Easy': 'Easy',
-  'Medium': 'Medium',
-  'Hard': 'Hard',
-}
-
 export default IdeasPage
