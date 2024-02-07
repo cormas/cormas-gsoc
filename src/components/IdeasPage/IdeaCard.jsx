@@ -1,12 +1,9 @@
-import React from "react"
-import * as URLS from '../../constants/urls'
-import logo from '../../img/logo-big.png'
+import React from 'react';
+import Typography from '@mui/material/Typography';
 
-const shorten = (text, maxlength) => {
-  if (text.length <= maxlength) return text;
+import * as URLS from '../../constants/urls';
+import logo from '../../img/logo-big.png';
 
-  return text.slice(0,maxlength) + " (...)";
-}
 
 export default function IdeaCard({idea}) {
 
@@ -20,9 +17,11 @@ export default function IdeaCard({idea}) {
             className="projectLogo"
           />
         </div>
-        <div className="projectName">{idea['title']}</div>
+        <Typography variant="h6">{idea['title']}</Typography>
       </div>
-      <p className="projectDescription">{shorten(idea['description'], 100)}</p>
+      <Typography variant="body1" className="projectDescription" gutterBottom>
+        <b>Keywords:</b> {idea?.keywords.join(', ')}
+      </Typography>
     </a>
   )
 }

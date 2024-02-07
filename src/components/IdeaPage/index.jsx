@@ -72,6 +72,7 @@ const translationsEN = {
   'mentors': 'Mentors',
   'look': 'Look this project in',
   'skills': 'Skills',
+  'keywords': 'Keywords',
   'required': 'Required skills',
   'preferred': 'Preferred skills',
   'timeSize': 'Project size',
@@ -88,7 +89,7 @@ export default function IdeaPage() {
   let { id } = useParams();
 
   var idea = loadIdea(id);
-  const { title, description, img, goal, url, supervisors, skills, size, difficulty } = idea;
+  const { title, description, img, goal, url, supervisors, keywords, skills, size, difficulty } = idea;
   const t = buildTranslate(translationsEN);
 
   useEffect(() => {
@@ -122,6 +123,10 @@ export default function IdeaPage() {
 
         <table class="idea-table">
           <tbody>
+            <tr>
+              <td>{t('keywords')}</td>
+              <td>{keywords.join(', ')}</td>
+            </tr>
             <tr>
               <td>{t('required')}</td>
               <td>{skills?.required.join(', ')}</td>

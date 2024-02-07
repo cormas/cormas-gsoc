@@ -74,11 +74,6 @@ article {
   display: flex;
   flex-direction: column;
 }
-.projectName {
-  color: var(--color-primary);
-  font-size: 1.5rem;
-  font-weight: 600;
-}
 .projectLogo img {
   aspect-ratio: 16 / 9;
   object-fit: cover;
