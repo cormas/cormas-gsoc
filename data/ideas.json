@@ -1,30 +1,61 @@
 [
   {
-    "id": "object-detection",
-    "title": "Enhancing Cormas with Computer Vision",
-    "img": "etienne-cv.png",
+    "id": "game-tiles",
+    "title": "Adding Game Tiles and Sprites to Cormas",
+    "img": "game-tiles.png",
     "supervisors": [
-      "Etienne Delay",
+      "Milton Mamani Torres",
       "Oleksandr Zaitsev"
     ],
-    "description": "The goal of this project is to enhance the interactive functionality of Cormas by building a computer vision system for detecting tangible objects such as board game pieces. Such a system would permit people to play a [serious game](https://en.wikipedia.org/wiki/Serious_game) on a physical board and have a camera detect the movement of pieces and automatically update the Cormas model. The game could then be stored, replayed, interacted with, and analysed using Cormas.\n\nObject detection can be implemented based on the smartphone camera or with a more advanced dedicated tool such as [Azure Kinect](https://azure.microsoft.com/en-us/products/kinect-dk/). Adaptation of Cormas platform for receiving live input from real world is a very important aspect of this project.",
-    "goal": "- Implement and test the API in Cormas for positioning agents on the spatial grid\n- Implement a prototype of an object detection system using computer vision\n- Connect the implemented object detection system to Cormas\n- Implement calibration and board initialization",
+    "description": "The current version of Cormas allows us to visualize the space and agents in the simulation using colors and geometric shapes (circles, rectangles, etc.). In this project, we want to add support for custom tilesets like the ones that are used in computer games. This would allow us to greatly improve the visual capabilities of Cormas by using custom pixel art. In Pharo, we already have support for sprites, which means that we know how to implement this project technically and can guide GSoC contributor in this. This project will require a lot of creativity because we expect contributor to propos a nice API and to build a collection of game tiles that can be used in Cormas.",
+    "goal": "- Add support for pixel art tilesets to Cormas\n- Propose a collection of default tiles and the methods for loading custom ones\n- Propose an API for configuring Cormas model to use a given tileset\n- Implement some of our existing models with tiles, and demonstrate them through videos and blog posts",
     "keywords": [
-      "Computer Vision",
-      "Machine Learning",
-      "AI",
-      "Agent-Based Modeling"
+      "Visualization",
+      "Agent-base modelling",
+      "Games",
+      "Tilesets",
+      "Sprites",
+      "Pixel art"
     ],
     "size": "Large",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "skills": {
       "required": [
         "Pharo",
-        "Machine Learing"
+        "Object-oriented programming"
       ],
       "preferred": [
-        "Open CV",
-        "Cormas"
+        "Visualization",
+        "Art",
+        "Gaming"
+      ]
+    }
+  },
+  {
+    "id": "sound-effects",
+    "title": "Sound Effect Library for Agent-Based Simulations",
+    "img": "domenico-sound.jpeg",
+    "supervisors": [
+      "Domenico Cipriani",
+      "Oleksandr Zaitsev"
+    ],
+    "description": "In Pharo, there is a library for generating and synthesizing music. We want to use it to add sound effects to Cormas simulations. It will start with simple sound effects, for example, when a cow says Mooo or when walking of a grass makes a sound. Then we will explore to which extent a simulation can be perceived through sound. Can different scenarios (high energy / low energy) sound differntly? Can sounds help us understand simulations better? This is an innovative project that can have an important impact in the field participatory simulations by making our tools more accessible and more intuitive for people with disabilities and for the local stakeholders who do not have a technical background.",
+    "goal": "- Create simple sound effects in Pharo and release them as a library\n- Assign those sound effects to actions and events in Cormas simulations\n- Build an API for manipulating sounds in Cormas\n- Explore the patterns that emerge is a simulation through sound effects",
+    "keywords": [
+      "Music",
+      "Agent-base modelling",
+      "Sound"
+    ],
+    "size": "Large",
+    "difficulty": "Medium",
+    "skills": {
+      "required": [
+        "Pharo",
+        "Object-oriented programming"
+      ],
+      "preferred": [
+        "Cormas",
+        "C"
       ]
     }
   },
@@ -58,63 +89,35 @@
     }
   },
   {
-    "id": "sound-effects",
-    "title": "Sound Effect Library for Agent-Based Simulations",
-    "img": "domenico-sound.jpeg",
+    "id": "object-detection",
+    "title": "Computer Vision for Game Piece Detection",
+    "img": "computer vision.png",
     "supervisors": [
-      "Domenico Cipriani",
+      "Etienne Delay",
       "Oleksandr Zaitsev"
     ],
-    "description": "In Pharo, there is a library for generating and synthesizing music. We want to use it to add sound effects to Cormas simulations. It will start with simple sound effects, for example, when a cow says Mooo or when walking of a grass makes a sound. Then we will explore to which extent a simulation can be perceived through sound. Can different scenarios (high energy / low energy) sound differntly? Can sounds help us understand simulations better? This is an innovative project that can have an important impact in the field participatory simulations by making our tools more accessible and more intuitive for people with disabilities and for the local stakeholders who do not have a technical background.",
-    "goal": "- Create simple sound effects in Pharo and release them as a library\n- Assign those sound effects to actions and events in Cormas simulations\n- Build an API for manipulating sounds in Cormas\n- Explore the patterns that emerge is a simulation through sound effects",
+    "description": "The goal of this project is to enhance the interactive functionality of Cormas by building a computer vision system for detecting tangible objects such as board game pieces. Such a system would permit people to play a [serious game](https://en.wikipedia.org/wiki/Serious_game) on a physical board and have a camera detect the movement of pieces and automatically update the Cormas model. The game could then be stored, replayed, interacted with, and analysed using Cormas.\n\nObject detection can be implemented based on the smartphone camera or with a more advanced dedicated tool such as [Azure Kinect](https://azure.microsoft.com/en-us/products/kinect-dk/). Adaptation of Cormas platform for receiving live input from real world is a very important aspect of this project.",
+    "goal": "- Implement and test the API in Cormas for positioning agents on the spatial grid\n- Implement a prototype of an object detection system using computer vision\n- Connect the implemented object detection system to Cormas\n- Implement calibration and board initialization",
     "keywords": [
-      "Music",
-      "Agent-base modelling",
-      "Sound"
+      "Computer Vision",
+      "Machine Learning",
+      "AI",
+      "Agent-Based Modeling"
     ],
     "size": "Large",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "skills": {
       "required": [
-        "Pharo",
-        "Object-oriented programming"
+        "Machine Learing",
+        "Computer Vision"
       ],
       "preferred": [
-        "Cormas",
-        "C"
+        "Pharo",
+        "Python",
+        "PyTorch",
+        "YOLO"
+        "Open CV",
       ]
     }
   },
-  {
-    "id": "game-tiles",
-    "title": "Adding Game Tiles and Sprites to Cormas",
-    "img": "game-tiles.png",
-    "supervisors": [
-      "Milton Mamani Torres",
-      "Oleksandr Zaitsev"
-    ],
-    "description": "The current version of Cormas allows us to visualize the space and agents in the simulation using colors and geometric shapes (circles, rectangles, etc.). In this project, we want to add support for custom tilesets like the ones that are used in computer games. This would allow us to greatly improve the visual capabilities of Cormas by using custom pixel art. In Pharo, we already have support for sprites, which means that we know how to implement this project technically and can guide GSoC contributor in this. This project will require a lot of creativity because we expect contributor to propos a nice API and to build a collection of game tiles that can be used in Cormas.",
-    "goal": "- Add support for pixel art tilesets to Cormas\n- Propose a collection of default tiles and the methods for loading custom ones\n- Propose an API for configuring Cormas model to use a given tileset\n- Implement some of our existing models with tiles, and demonstrate them through videos and blog posts",
-    "keywords": [
-      "Visualization",
-      "Agent-base modelling",
-      "Games",
-      "Tilesets",
-      "Sprites",
-      "Pixel art"
-    ],
-    "size": "Large",
-    "difficulty": "Medium",
-    "skills": {
-      "required": [
-        "Pharo",
-        "Object-oriented programming"
-      ],
-      "preferred": [
-        "Visualization",
-        "Art",
-        "Gaming"
-      ]
-    }
-  }
 ]
