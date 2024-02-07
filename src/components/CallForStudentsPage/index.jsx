@@ -3,7 +3,7 @@ import * as ROUTES from '../../constants/routes';
 
 export default function CallForStudentsPage() {
   useEffect(() => {
-    document.title = "Pharo GSoC";  
+    document.title = "Cormas GSoC";  
   }, []);
 
   return(
