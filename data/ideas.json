@@ -1,30 +1,30 @@
 [
   {
-    "id": "object-detection",
-    "title": "Enhancing Cormas with Computer Vision",
-    "img": "etienne-cv.png",
+    "id": "moose-cormas",
+    "title": "Analysing Cormas Code with Moose",
+    "img": "nicolas-moose.png",
     "supervisors": [
-      "Etienne Delay",
+      "Nicolas Anquetil",
       "Oleksandr Zaitsev"
     ],
-    "description": "The goal of this project is to enhance the interactive functionality of Cormas by building a computer vision system for detecting tangible objects such as board game pieces. Such a system would permit people to play a [serious game](https://en.wikipedia.org/wiki/Serious_game) on a physical board and have a camera detect the movement of pieces and automatically update the Cormas model. The game could then be stored, replayed, interacted with, and analysed using Cormas.\n\nObject detection can be implemented based on the smartphone camera or with a more advanced dedicated tool such as [Azure Kinect](https://azure.microsoft.com/en-us/products/kinect-dk/). Adaptation of Cormas platform for receiving live input from real world is a very important aspect of this project.",
-    "goal": "- Implement and test the API in Cormas for positioning agents on the spatial grid\n- Implement a prototype of an object detection system using computer vision\n- Connect the implemented object detection system to Cormas\n- Implement calibration and board initialization",
+    "description": "[Moose](https://moosetechnology.org/) is a platform for software and data analysis implemented in Pharo. It provides an extensive toolkit for exploring the source code of a given project, find code defects, bad practices, etc. Cormas is a legacy software system that has been in development for more than 25 years. It has been migrated from one dialect of Smalltalk to another, it has been maintained by different people with different levels of expertise and different programming practices. As such, Cormas is a very interesting case study for code analysis. Using Moose, we can detect dead code (methods that are no longer used), split god classes and methods (the ones that are clearly too large), reorganize packages to reduce coupling, improve test coverage. All this information can be extremely valuable for Cormas development and it can also contribute to the improvement of Moose platform.",
+    "goal": "- Learn to use Moose (we have detailed guides and tutorials)\n- Load the source code of Cormas into Moose\n- Perform various analyses and build visualizations\n- Report the findings to the Cormas community\n- Improve the source code of Cormas",
     "keywords": [
-      "Computer Vision",
-      "Machine Learning",
-      "AI",
-      "Agent-Based Modeling"
+      "Code analysis",
+      "Code comprehension",
+      "Visualizations",
+      "Programming"
     ],
     "size": "Large",
-    "difficulty": "Hard",
+    "difficulty": "Easy",
     "skills": {
       "required": [
         "Pharo",
-        "Machine Learing"
+        "Object-oriented programming"
       ],
       "preferred": [
-        "Open CV",
-        "Cormas"
+        "Cormas",
+        "Moose"
       ]
     }
   }
