@@ -119,5 +119,35 @@
         "Open CV"
       ]
     }
+  },
+  {
+    "id": "hexagonal-cells",
+    "title": "Adding Hexagonal Cells to Cormas Pharo",
+    "img": "hexagonal-cells.png",
+    "supervisors": [
+      "Milton Mamani Torres",
+      "Oleksandr Zaitsev"
+    ],
+    "description": "In VisualWorks version of Cormas, we had a good support for hexagonal cells. In the current version of Cormas that we have in Pharo, we can only use square cells. The goal of this project is therefore to (re-)implement the hexagonal grid. The contribution of this project can also be submitted to [Roassal3](https://github.com/pharo-graphics/Roassal) visualization library. We would like to take inspiration from this article: [Hexagonal Grids from Red Blob Games](https://www.redblobgames.com/grids/hexagons/) to implement the hexagonal geometry in Roassal and use it to enhance the spatial model of Cormas.",
+    "goal": "- Implement hexagonal grid layout in Roassal based on the article cited above\n- Use hexagonal layout to add hexagonal cells to the spatial model of Cormas\n- Experiemnt with the possibility of dynamically switching between square and hexagonal grids in the simulation\n- Experiment with other types of grids, for example, triangular",
+    "keywords": [
+      "Computer Graphics",
+      "Geometry",
+      "Grids",
+      "Hexagonal Cells"
+    ],
+    "size": "Large",
+    "difficulty": "Hard",
+    "skills": {
+      "required": [
+        "Pharo",
+        "Object-Oriented Programming",
+      ],
+      "preferred": [
+        "Computer Graphics",
+        "Geometry",
+        "Roassal"
+      ]
+    }
   }
 ]
