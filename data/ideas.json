@@ -141,7 +141,7 @@
     "skills": {
       "required": [
         "Pharo",
-        "Object-Oriented Programming",
+        "Object-Oriented Programming"
       ],
       "preferred": [
         "Computer Graphics",
