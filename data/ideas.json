@@ -56,5 +56,33 @@
         "Moose"
       ]
     }
+  },
+  {
+    "id": "sound-effects",
+    "title": "Sound Effect Library for Agent-Based Simulations",
+    "img": "domenico-sound.jpeg",
+    "supervisors": [
+      "Domenico Cipriani",
+      "Oleksandr Zaitsev"
+    ],
+    "description": "In Pharo, there is a library for generating and synthesizing music. We want to use it to add sound effects to Cormas simulations. It will start with simple sound effects, for example, when a cow says Mooo or when walking of a grass makes a sound. Then we will explore to which extent a simulation can be perceived through sound. Can different scenarios (high energy / low energy) sound differntly? Can sounds help us understand simulations better? This is an innovative project that can have an important impact in the field participatory simulations by making our tools more accessible and more intuitive for people with disabilities and for the local stakeholders who do not have a technical background.",
+    "goal": "- Create simple sound effects in Pharo and release them as a library\n- Assign those sound effects to actions and events in Cormas simulations\n- Build an API for manipulating sounds in Cormas\n- Explore the patterns that emerge is a simulation through sound effects",
+    "keywords": [
+      "Music",
+      "Agent-base modelling",
+      "Sound",
+    ],
+    "size": "Large",
+    "difficulty": "Medium",
+    "skills": {
+      "required": [
+        "Pharo",
+        "Object-oriented programming"
+      ],
+      "preferred": [
+        "Cormas",
+        "C"
+      ]
+    }
   }
 ]
