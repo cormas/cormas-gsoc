@@ -91,7 +91,7 @@
   {
     "id": "object-detection",
     "title": "Computer Vision for Game Piece Detection",
-    "img": "computer vision.png",
+    "img": "computer-vision.png",
     "supervisors": [
       "Etienne Delay",
       "Oleksandr Zaitsev"
