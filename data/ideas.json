@@ -84,5 +84,37 @@
         "C"
       ]
     }
+  },
+  {
+    "id": "game-tiles",
+    "title": "Adding Game Tiles and Sprites to Cormas",
+    "img": "game-tiles.png",
+    "supervisors": [
+      "Milton Mamani Torres",
+      "Oleksandr Zaitsev"
+    ],
+    "description": "The current version of Cormas allows us to visualize the space and agents in the simulation using colors and geometric shapes (circles, rectangles, etc.). In this project, we want to add support for custom tilesets like the ones that are used in computer games. This would allow us to greatly improve the visual capabilities of Cormas by using custom pixel art. In Pharo, we already have support for sprites, which means that we know how to implement this project technically and can guide GSoC contributor in this. This project will require a lot of creativity because we expect contributor to propos a nice API and to build a collection of game tiles that can be used in Cormas.",
+    "goal": "- Add support for pixel art tilesets to Cormas\n- Propose a collection of default tiles and the methods for loading custom ones\n- Propose an API for configuring Cormas model to use a given tileset\n- Implement some of our existing models with tiles, and demonstrate them through videos and blog posts",
+    "keywords": [
+      "Visualization",
+      "Agent-base modelling",
+      "Games",
+      "Tilesets",
+      "Sprites",
+      "Pixel art"
+    ],
+    "size": "Large",
+    "difficulty": "Medium",
+    "skills": {
+      "required": [
+        "Pharo",
+        "Object-oriented programming"
+      ],
+      "preferred": [
+        "Visualization",
+        "Art",
+        "Gaming"
+      ]
+    }
   }
 ]
